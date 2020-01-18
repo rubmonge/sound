@@ -1,61 +1,58 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 
 		<title>A journey into sound</title>
 
-		<meta name="description" content="assets/">
-		<meta name="author" content="rmonge">
+		<meta name="description" content="assets/" />
+		<meta name="author" content="rmonge" />
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
 
-		
-		<link rel="stylesheet" href="assets/reveal.min.css">
-		<link rel="stylesheet" href="assets/default.css" id="theme">
-		<link rel="stylesheet" href="assets/additional.css">
+		<link rel="stylesheet" href="assets/reveal.min.css" />
+		<link rel="stylesheet" href="assets/default.css" id="theme" />
+		<link rel="stylesheet" href="assets/additional.css" />
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="assets/zenburn.css">
-
-		
+		<link rel="stylesheet" href="assets/zenburn.css" />
 
 		<!--[if lt IE 9]>
-		<script src="assets/html5shiv.js"></script>
+			<script src="assets/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
 	<body>
-
 		<div class="reveal">
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
 					<h1>A jorney into sound</h1>
-					<h4>Or how audio compression is killing the radio star</h4>					
+					<h4>Or how audio compression is killing the radio star</h4>
 				</section>
 				<section>
 					<section>
 						<h2>Why this topic</h2>
 						<h4>I used to make music</h4>
-						<img src='assets/impulse_tracker.jpg' alt='impulse tracker'/>
+						<img src="assets/impulse_tracker.jpg" alt="impulse tracker" />
 						<p>(electronic dance music)</p>
 					</section>
 					<section>
-						<img src='assets/logic_pro.jpg' alt='impulse tracker'/>
+						<img src="assets/logic_pro.jpg" alt="impulse tracker" />
 					</section>
 					<section>
 						<h3>Audio compression = quality loss</h3>
 					</section>
 				</section>
 				<section>
-					<section>				
+					<section>
 						<h2>technical explanation</h2>
-						
+
 						<ol>
 							<li>What is audio compression?</li>
 							<li>How audio compression works?</li>
@@ -63,95 +60,98 @@
 						</ol>
 					</section>
 					<section>
-					<img src='assets/The-heart.png' alt='impulse tracker' width="220" class="heart"/>
-						<p>we all love music
-						<br/>&
-						<br/>we want music as it is
-						</p>
+						<img
+							src="assets/The-heart.png"
+							alt="impulse tracker"
+							width="220"
+							class="heart"
+						/>
+						<p>we all love music <br />& <br />we want music as it is</p>
 					</section>
 				</section>
 				<section>
-				<section> 
-				<h2>What is audio compression and how it works</h2>
-				<h6> Let's get nerd</h6>
-				</section>
-				<section>
-				<h2>definition</h2>
-				<p>compression in which the amount of data in a recorded waveform is reduced to differing extents for transmission, used in MP3 encoding, Internet radio, and the like
-				<br/><small style="float:right">- wikipedia</small></p>
-				</section>
+					<section>
+						<h2>What is audio compression and how it works</h2>
+						<h6>Let's get nerd</h6>
+					</section>
+					<section>
+						<h2>definition</h2>
+						<p>
+							compression in which the amount of data in a recorded waveform is
+							reduced to differing extents for transmission, used in MP3 encoding,
+							Internet radio, and the like <br /><small style="float:right"
+								>- wikipedia</small
+							>
+						</p>
+					</section>
 					<section>
 						<h3>Analog wave</h3>
-						<img src='assets/graph/analog_to_digital_01.png' class="graph" alt='01'/>						
+						<img src="assets/graph/analog_to_digital_01.png" class="graph" alt="01" />
 					</section>
 					<section>
 						<h3>digitization process</h3>
-						<img src='assets/graph/analog_to_digital_02.png' class="graph" alt='02'/>		
-						<p>16bits, 44100Hz = Industry standard = CD quality</p>						
+						<img src="assets/graph/analog_to_digital_02.png" class="graph" alt="02" />
+						<p>16bits, 44100Hz = Industry standard = CD quality</p>
 					</section>
 					<section>
 						<h3>digital wave</h3>
-						<img src='assets/graph/analog_to_digital_03.png' class="graph" alt='03'/>						
+						<img src="assets/graph/analog_to_digital_03.png" class="graph" alt="03" />
 					</section>
 					<section>
 						<h3>analog to digital conversion loss</h3>
-						<img src='assets/graph/analog_to_digital_04.png' class="graph" alt='04'/>						
+						<img src="assets/graph/analog_to_digital_04.png" class="graph" alt="04" />
 					</section>
 					<section>
-						<h3>compression process</h3>						
-						<img src='assets/graph/analog_to_digital_05.png' class="graph" alt='05'/>						
+						<h3>compression process</h3>
+						<img src="assets/graph/analog_to_digital_05.png" class="graph" alt="05" />
 						<p>based in psychoacoustics knowledge</p>
 					</section>
 					<section>
-						<h3>compressed wave</h3>	
-						<img src='assets/graph/analog_to_digital_06.png' class="graph" alt='06'/>						
+						<h3>compressed wave</h3>
+						<img src="assets/graph/analog_to_digital_06.png" class="graph" alt="06" />
 					</section>
 					<section>
 						<h3>analog to compressed loss</h3>
-						<img src='assets/graph/analog_to_digital_07.png' class="graph" alt='07'/>						
+						<img src="assets/graph/analog_to_digital_07.png" class="graph" alt="07" />
 					</section>
 					<section>
 						<h3>Analog wave</h3>
-						<img src='assets/graph/analog_to_digital_01.png' class="graph" alt='01'/>						
+						<img src="assets/graph/analog_to_digital_01.png" class="graph" alt="01" />
 					</section>
 					<section>
-						<h3>compressed wave</h3>	
-						<img src='assets/graph/analog_to_digital_06.png' class="graph" alt='06'/>						
+						<h3>compressed wave</h3>
+						<img src="assets/graph/analog_to_digital_06.png" class="graph" alt="06" />
 					</section>
 					<section>
 						<h3>digital conversion loss</h3>
-						<img src='assets/graph/analog_to_digital_08.png' class="graph" alt='08'/>						
+						<img src="assets/graph/analog_to_digital_08.png" class="graph" alt="08" />
 					</section>
 					<section>
 						<h3>compression loss</h3>
-						<img src='assets/graph/analog_to_digital_09.png' class="graph" alt='09'/>						
+						<img src="assets/graph/analog_to_digital_09.png" class="graph" alt="09" />
 					</section>
 					<section>
-						<img src='assets/bread_01.jpg' class="graph" alt='bread1'/>						
+						<img src="assets/bread_01.jpg" class="graph" alt="bread1" />
 					</section>
 					<section>
-						<img src='assets/bread_02.jpg' class="graph" alt='bread2'/>						
+						<img src="assets/bread_02.jpg" class="graph" alt="bread2" />
 					</section>
 				</section>
 				<section>
-					<img src='assets/god_kills_kitty.png' class="graph" alt='kitty'/>		
+					<img src="assets/god_kills_kitty.png" class="graph" alt="kitty" />
 				</section>
 				<section>
 					<h1>thanks for listening</h1>
-					
+
 					<h3>questions?</h3>
-					
 				</section>
-
 			</div>
-
 		</div>
 
 		<script src="assets/head.min.js"></script>
 		<script src="assets/reveal.min.js"></script>
 
 		<script>
-
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -165,16 +165,47 @@
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: 'assets/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'assets/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'assets/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'assets/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'assets/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'assets/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{
+						src: 'assets/classList.js',
+						condition: function() {
+							return !document.body.classList;
+						}
+					},
+					{
+						src: 'assets/marked.js',
+						condition: function() {
+							return !!document.querySelector('[data-markdown]');
+						}
+					},
+					{
+						src: 'assets/markdown.js',
+						condition: function() {
+							return !!document.querySelector('[data-markdown]');
+						}
+					},
+					{
+						src: 'assets/highlight.js',
+						async: true,
+						callback: function() {
+							hljs.initHighlightingOnLoad();
+						}
+					},
+					{
+						src: 'assets/zoom.js',
+						async: true,
+						condition: function() {
+							return !!document.body.classList;
+						}
+					},
+					{
+						src: 'assets/notes.js',
+						async: true,
+						condition: function() {
+							return !!document.body.classList;
+						}
+					}
 				]
 			});
-
 		</script>
-
 	</body>
 </html>
